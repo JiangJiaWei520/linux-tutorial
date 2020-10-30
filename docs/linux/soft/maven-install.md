@@ -19,7 +19,7 @@
 
 进入官网下载地址：https://maven.apache.org/download.cgi ，选择合适的版本下载。
 
-我选择的是最新 Maven3 版本：http://mirrors.hust.edu.cn/apache/maven/maven-3/3.5.2/binaries/apache-maven-3.5.2-bin.tar.gz
+我选择的是最新 Maven3 版本：http://mirrors.hust.edu.cn/apache/maven/maven-3/
 
 （2）解压到本地
 
@@ -31,8 +31,8 @@
 
 ```
 # MAVEN 的根路径
-export MAVEN_HOME=/opt/maven/apache-maven-3.5.2
-export PATH=\$MAVEN_HOME/bin:\$PATH
+export MAVEN_HOME=/opt/maven/apache-maven-x.x.x
+export PATH=$MAVEN_HOME/bin:$PATH
 ```
 
 执行 `source /etc/profile` ，立即生效
